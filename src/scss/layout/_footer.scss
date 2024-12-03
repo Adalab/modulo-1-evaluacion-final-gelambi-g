@@ -1,1 +1,20 @@
-//contenido
+.footer {
+    background-color: #4a4a4a;
+    color: white;
+    
+    &_b {
+        border-radius: 50%;
+        border: none;
+        width: 40px;
+        height: 40px;
+        /*position: absolute;
+        left: 10%;*/
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &_list1 {
+        text-decoration: none;
+    }
+}
