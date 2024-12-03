@@ -1,0 +1,36 @@
+.shop {
+    width: 80vw;
+    padding: 20px 15px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+    &_title1 {
+        color: $moss-green;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    &_title2 {
+        font-family: $font-title;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 2.2rem;
+        
+    }
+
+    &_p {
+        color: $color-shop;
+        font-size: 1.8rem;
+    }
+}
+
+.b_comprar {
+    
+    border-color: $moss-green;
+    background-color: white;
+    border-radius: 20%;
+    color: $moss-green;
+}
