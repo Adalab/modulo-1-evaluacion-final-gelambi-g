@@ -1,20 +1,50 @@
 //contenido
 .header {
     height: 100vh;
+    width: 100%;
     background-image: url(../images/cover.jpeg);
-    background-position: 90%;
+    background-position: 85%;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    &_menu {
+        width: 15%;
+        background-color: $moss-green;
+        padding: 20px;
+        position: fixed;
+        border: none;
+    }
+
+    &_img {
+        width: 60px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 50px;
+    }
 }
 
-.header_img1 {
-    background-color: $moss-green;
-    padding: 10px;
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &_title{
+        color: white;
+        font-family: $font-title;
+        font-size: 3rem;
+        align-items: center;
+        margin: 20px;
+    }
+
+    &_p {
+        margin: 20px;
+        color: white;
+        font-size: 1.8rem;
+    }
 }
 
-.header_title {
-    color: white;
-}
 
-.header_p {
-    color: white;
-}
