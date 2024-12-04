@@ -18,6 +18,14 @@
         margin-top: 3px;
         font-size: 2.2rem;
     }
+
+    &_div {
+        @media (width>768px){
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+
 }
 
 .b_school {
