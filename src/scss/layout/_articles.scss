@@ -1,8 +1,5 @@
 .article {
-  
-
-    
-    
+    justify-items: center;
     &_img {
         width: 130px;
         border-radius: 50%;
@@ -13,8 +10,12 @@
 
     &_text {
         font-size: 1.4rem;
-        
+        justify-content: center;
         font-family: $font-title;
+
+        @media (width > 768px) {
+            font-size: 1.8rem;
+        }
     }
 }
 
